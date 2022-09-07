@@ -1,0 +1,24 @@
+start with man.
+
+Man itu buat ngeliat dokumentasi penggunaan command.
+Man itu artinya manual.
+Misal kita mau liat manualnya command cd, tulis
+man cd.
+Mau liat manualnya man? tulis
+man man.
+
+Mulai dengan man man.
+
+===========
+
+rm -i
+-i for interaktif
+
+rm -rf
+-r for recursif
+-f force 
+ameh bisa langsung bisa ngahapus direktori. KAPANGIH CEUNAH
+
+====
+
+cp -r untuk salin folder/direktori

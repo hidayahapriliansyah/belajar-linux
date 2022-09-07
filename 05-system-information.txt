@@ -1,0 +1,14 @@
+uptime : Untuk apa ini teh? Tell how long system has been runing
+
+free : Melihat free memory di sistem.
+
+ps : Process linux. Report the snapshor the current process
+
+df : Report file system disk space usage
+
+-h : for human readable anjaay
+
+fdisk : manipulate disk partition table
+  Ini perlu super user ya
+
+lsblk : list block devices

@@ -1,0 +1,76 @@
+pake 
+head 
+
+it pulls the first ten line
+
+head -5 [file]
+itu bakal nunjukin 5 line pertama dari file tersebut
+
+tail 
+untuk menampilkan 10 line terakhir dari file
+
+cat
+untuk melihat keseluruhan isi file
+
+
+===========
+
+Cat itu merupakan concanate yang artinya menggabungkan.
+Nah, si cat ini bisa buat ngegabungin isi file jadi satu file.
+Contoh :
+Kita telah membuat 3 file yaitu 
+  nama-depan.txt yang isinya Adi
+  nama-tengah.txt yang isinya Muhamad
+  nama-belakang.txt yang isinya Firmansyah
+
+ketika kita menuliskan
+  cat nama-depan.txt nama-tengah.txt nama-belakang.txt
+maka output yang muncul adalah
+  Adi
+  Muhamad
+  Firmansyah
+
+===========
+ Membuat file sekaligus isinya
+
+ini menggunakan command
+  echo
+
+Contoh
+ echo Adi>nama-depan.txt
+
+Maka itu akan membuat file bernama nama-depan.txt yang isinya Adi.
+
+=============
+Cat Untuk menggabungkan file
+
+nah ini kayak gabungan cat dan echo.
+Kita kembali kecontoh yang cat di atas dengan memanggil 3 file.
+Tapi sekarang setelah itu kita akan gabungkan file tersebut menjadi satu file.
+Caranya :
+  cat nama-depan.txt nama-tengah.txt nama-belakang.txt >nama-lengkap.txt
+
+Nah, bakal muncul deh file baru nama-lengkap.txt
+yang isinya
+  Adi
+  Muhamad
+  Firmansyah
+
+==========
+More & Less
+
+Nah untuk membaca file lebih baik, linux memiliki command more dan less.
+Berbeda dengan cat yang akan langsung menampilkan seluruh isi dari konten file.
+More & Less akan membuat konten disajikan lebih mudah untuk diselancari.
+Perbedaan antara more dan less adalah :
+more menyajikan konten dengan konsep halaman. Terdapat tanda berapa persen halaman yang ditampilkan.
+less menyajikan konten dengan konsep scrolling. Dimana kita bisa menelusuri satu demi satu line dari konten.
+  more file.txt
+  less file.txt
+
+
+
+
+
+
+
